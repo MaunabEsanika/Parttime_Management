@@ -16,6 +16,7 @@
 
                     You are logged in!
                 </div>
+                <input type="button" class="btn btn-primary" action="{{ route('logout') }}" method="POST">
             </div>
         </div>
     </div>
